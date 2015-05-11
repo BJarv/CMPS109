@@ -1,5 +1,5 @@
-// $Id: util.h,v 1.5 2014-04-09 17:03:58-07 - - $
-
+//Brandon Jarvinen (bjarvine@ucsc.edu)
+//Fan Zhang (fzhang12@ucsc.edu)
 //
 // util -
 //    A utility class to provide various services not conveniently

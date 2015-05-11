@@ -1,4 +1,5 @@
-// $Id: bigint.h,v 1.16 2014-07-02 20:01:17-07 - - $
+//Brandon Jarvinen (bjarvine@ucsc.edu)
+//Fan Zhang (fzhang12@ucsc.edu)
 
 #ifndef __BIGINT_H__
 #define __BIGINT_H__
@@ -16,17 +17,17 @@ using namespace std;
 class bigint {
       friend ostream& operator<< (ostream&, const bigint&);
    private:
-      using digit_t = unsigned char;
-      using bigvalue_t = vector<digit_t>;
-      using bool negative;
-      bigvalue_t bigvalue;
+      long long_value {};
       using quot_rem = pair<bigint,bigint>;
       using unumber = unsigned long;
       friend quot_rem divide (const bigint&, const bigint&);
       friend void multiply_by_2 (unumber&);
       friend void divide_by_2 (unumber&);
    public:
-
+      using digit_t = unsigned char;
+      using bigvalue_t = vector<digit_t>;
+      bigvalue_t bigvalue;
+      bool negative;
       //
       // Ensure synthesized members are genrated.
       //
@@ -42,6 +43,7 @@ class bigint {
       //
       bigint (const long);
       bigint (const string&);
+      bigint (bigvalue_t, bool);
 
       //
       // Basic add/sub operators.

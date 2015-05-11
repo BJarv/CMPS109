@@ -1,4 +1,5 @@
-// $Id: util.cpp,v 1.10 2014-04-09 16:45:33-07 - - $
+//Brandon Jarvinen (bjarvine@ucsc.edu)
+//Fan Zhang (fzhang12@ucsc.edu)- $
 
 #include <cstdlib>
 #include <sstream>

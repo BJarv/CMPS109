@@ -1,4 +1,5 @@
-// $Id: scanner.h,v 1.2 2014-04-08 19:04:03-07 - - $
+//Brandon Jarvinen (bjarvine@ucsc.edu)
+//Fan Zhang (fzhang12@ucsc.edu)
 
 #ifndef __SCANNER_H__
 #define __SCANNER_H__

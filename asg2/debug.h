@@ -1,4 +1,5 @@
-// $Id: debug.h,v 1.1 2014-04-08 19:04:03-07 - - $
+//Brandon Jarvinen (bjarvine@ucsc.edu)
+//Fan Zhang (fzhang12@ucsc.edu)
 
 #ifndef __DEBUG_H__
 #define __DEBUG_H__

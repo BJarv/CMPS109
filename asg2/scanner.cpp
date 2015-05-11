@@ -1,4 +1,5 @@
-// $Id: scanner.cpp,v 1.7 2014-04-08 18:43:33-07 - - $
+//Brandon Jarvinen (bjarvine@ucsc.edu)
+//Fan Zhang (fzhang12@ucsc.edu)
 
 #include <iostream>
 #include <locale>

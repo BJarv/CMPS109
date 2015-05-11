@@ -1,4 +1,5 @@
-// $Id: debug.cpp,v 1.3 2014-06-26 16:51:09-07 - - $
+//Brandon Jarvinen (bjarvine@ucsc.edu)
+//Fan Zhang (fzhang12@ucsc.edu)
 
 #include <climits>
 #include <iostream>

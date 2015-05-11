@@ -1,4 +1,5 @@
-// $Id: iterstack.h,v 1.13 2014-06-26 17:21:55-07 - - $
+//Brandon Jarvinen (bjarvine@ucsc.edu)
+//Fan Zhang (fzhang12@ucsc.edu)
 
 // 
 // The class std::stack does not provide an iterator, which is

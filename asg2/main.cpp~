@@ -113,7 +113,7 @@ void scan_options (int argc, char** argv) {
       complain() << "operand not permitted" << endl;
    }
 }
-
+
 //
 // Main function.
 //

@@ -23,7 +23,10 @@ class bigint {
       friend void multiply_by_2 (unumber&);
       friend void divide_by_2 (unumber&);
    public:
-
+      using digit_t = unsigned char;
+      using bigvalue_t = vector<digit_t>;
+      bigvalue_t bigvalue;
+      bool negative;
       //
       // Ensure synthesized members are genrated.
       //
@@ -39,6 +42,7 @@ class bigint {
       //
       bigint (const long);
       bigint (const string&);
+      bigint (bigvalue_t, bool);
 
       //
       // Basic add/sub operators.
@@ -48,7 +52,7 @@ class bigint {
       friend bigint operator+ (const bigint&);
       friend bigint operator- (const bigint&);
       long to_long() const;
-
+
       //
       // Extended operators implemented with add/sub.
       //

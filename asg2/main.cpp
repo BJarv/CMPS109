@@ -1,4 +1,5 @@
-// $Id: main.cpp,v 1.41 2014-07-02 20:01:17-07 - - $
+//Brandon Jarvinen (bjarvine@ucsc.edu)
+//Fan Zhang (fzhang12@ucsc.edu)
 
 #include <deque>
 #include <iostream>
